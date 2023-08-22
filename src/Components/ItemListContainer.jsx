@@ -1,6 +1,6 @@
 import { Center } from "@chakra-ui/react";
 import {useParams} from 'react-router-dom'
-import {ItemList} from './ItemList'
+import  ItemList from './ItemList'
 
 const ItemListContainer = () => {
   const {category} = useParams()

@@ -15,11 +15,13 @@ const Item = ({id, nombre, description, category  }) => {
           <Text>{category} </Text>
         </CardBody>
         <CardFooter>
-          <Button> 
+
+        <Button>
             <Link to={`/item/${id}`}>
-              Details
+                Añadir  
             </Link>
-           </Button>     
+        </Button>    
+              
           
         </CardFooter>
       </Card>
